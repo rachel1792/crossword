@@ -18,7 +18,7 @@ class CWItem(scrapy.Item):
     unique = scrapy.Field()
 
 
-class UDItem(scrapy.Item):
+class UDItem(scrapy.Item):  #Fields are column names
     date = scrapy.Field()
     phrase = scrapy.Field()
     up_votes = scrapy.Field()
